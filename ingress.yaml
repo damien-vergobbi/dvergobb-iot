@@ -2,7 +2,7 @@ apiVersion: netkorking.k8s.io/v1
 kind: Ingress
 metadata:
   name: app1
-  lables:
+  labels:
     app: app1
 spec:
   rules:

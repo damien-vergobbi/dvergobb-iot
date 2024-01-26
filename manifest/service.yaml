@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: svc-wil
 spec:
+  type: LoadBalancer
   selector:
     app: wil
   ports:
